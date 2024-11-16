@@ -1,0 +1,25 @@
+{
+    "name": "fonttest",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "idx-font": "github:phatisena/idx-font#master"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.12.57",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj"
+}

@@ -3,23 +3,25 @@
     "description": "",
     "dependencies": {
         "device": "*",
-        "idx-font": "github:phatisena/idx-font#master"
+        "idx-font": "github:phatisena/idx-font#v17.0.0",
+        "unifont": "pkg:unifont.json"
     },
     "files": [
         "main.blocks",
         "main.ts",
         "README.md",
-        "assets.json"
+        "assets.json",
+        "unifont.json"
     ],
     "testFiles": [
         "test.ts"
     ],
     "targetVersions": {
-        "target": "1.12.57",
+        "target": "1.12.58",
         "targetId": "arcade"
     },
     "supportedTargets": [
         "arcade"
     ],
-    "preferredEditor": "tsprj"
+    "preferredEditor": "blocksprj"
 }
